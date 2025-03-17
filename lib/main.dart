@@ -1,4 +1,5 @@
 import 'package:animations_rivan_sir/implicit_animations/animated_color_palatte.dart';
+import 'package:animations_rivan_sir/implicit_animations/animated_shopping_cart_button.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +13,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AnimatedColorPalatte(),
+      // home: AnimatedColorPalatte(),
+      home: AnimatedShoppingCartButton(),
     );
   }
 }
