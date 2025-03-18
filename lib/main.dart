@@ -1,5 +1,5 @@
-import 'package:animations_rivan_sir/implicit_animations/animated_color_palatte.dart';
 import 'package:animations_rivan_sir/implicit_animations/animated_shopping_cart_button.dart';
+import 'package:animations_rivan_sir/implicit_animations/tween_animation_builder.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: AnimatedColorPalatte(),
-      home: AnimatedShoppingCartButton(),
+      // home: AnimatedShoppingCartButton(),
+      home: TweenAnimationBuilderWidget(),
     );
   }
 }
