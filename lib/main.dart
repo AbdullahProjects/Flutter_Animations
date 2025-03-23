@@ -1,3 +1,4 @@
+import 'package:animations_rivan_sir/explicit_animations/list_animation.dart';
 import 'package:animations_rivan_sir/explicit_animations/login_page_animation.dart';
 import 'package:animations_rivan_sir/implicit_animations/animated_shopping_cart_button.dart';
 import 'package:animations_rivan_sir/implicit_animations/implicit_animations_all.dart';
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
       // home: AnimatedShoppingCartButton(),
       // home: TweenAnimationBuilderWidget(),
       // home: ImplicitAnimationsAll(),
-      home: LoginPageAnimations(),
+      // home: LoginPageAnimations(),
+      home: ListAnimation(),
     );
   }
 }
