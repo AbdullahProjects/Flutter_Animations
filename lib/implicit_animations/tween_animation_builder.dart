@@ -38,8 +38,8 @@ class _TweenAnimationBuilderWidgetState
           // using tween builder -----------------------------------------------
           // (This approach is best for animation which values are not changing on click and which executed only once)
           child: TweenAnimationBuilder(
-            duration: const Duration(seconds: 1),
-            tween: Tween<double>(begin: 0.0, end: 200),
+            duration: const Duration(seconds: 2),
+            tween: Tween<double>(begin: 0.0, end: 250),
             curve: Curves.easeInOut,
             builder: (context, size, child) {
               print("Builder Build: $size");
