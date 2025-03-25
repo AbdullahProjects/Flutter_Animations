@@ -1,7 +1,23 @@
-# Flutter Animations Learning 🔥
+# 🎨 Learning Flutter Animations: Implicit vs Explicit
 
-This repository will cover following animations of Flutter:
-- Implicit Animations
-- Explicit Animations
-- Hero Animations
-- Lottie Animations
+Flutter provides two main types of animations: **Implicit animations** and **Explicit animations**.
+
+| Animation Type  | Description |
+|----------------|------------|
+| **Implicit Animation** | Automatically animates changes in widget properties without needing a controller. Uses widgets like `AnimatedContainer`, `AnimatedOpacity`, etc. |
+| **Explicit Animation** | Provides fine control over animations using an `AnimationController`. Requires manual handling of animation states. |
+
+---
+
+## 🚀 Implicit Animations
+
+Implicit animations are easy to use and animate property changes smoothly. Below are some small projects demonstrating different implicit animations.
+
+### 📌 1. Random Color Changing (Smooth Color Transition)
+
+#### **Description**  
+This example animates the background color of a `Container` when a button is pressed. 
+
+![Animated Container GIF](https://github.com/AbdullahProjects/Flutter_Animations/blob/main/assets/gifs/animated%20container.gif)
+
+
