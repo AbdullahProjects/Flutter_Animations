@@ -16,7 +16,7 @@ Implicit animations are easy to use and animate property changes smoothly. Below
 ### 📌 1. Random Color Changing (Smooth Color Transition)
 
 #### **Description**  
-This example animates the background color of a `Container` when a button is pressed. 
+This example animates the background color of a `Container` when a button is pressed. Use **AnimatedContainer** to shift color from one to another within given time duration smootly.
 
 ![Animated Container GIF](https://github.com/AbdullahProjects/Flutter_Animations/blob/main/assets/gifs/animated%20container.gif)
 
