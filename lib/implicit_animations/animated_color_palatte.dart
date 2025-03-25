@@ -9,8 +9,6 @@ class AnimatedColorPalatte extends StatefulWidget {
 }
 
 class _AnimatedColorPalatteState extends State<AnimatedColorPalatte> {
-  Color color = assignColor();
-
   static Color assignColor() {
     final random = Random();
     return Color.fromRGBO(
@@ -23,17 +21,28 @@ class _AnimatedColorPalatteState extends State<AnimatedColorPalatte> {
     });
   }
 
+  Color color = assignColor();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Animated Color Shifting"),
+        title: Text(
+          "Animated Color Shifting",
+          style: TextStyle(
+            color: Colors.black,
+          ),
+        ),
         backgroundColor: Colors.grey,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: revertColor,
         backgroundColor: Colors.grey,
-        child: Icon(Icons.play_arrow),
+        foregroundColor: Colors.white,
+        child: Icon(
+          Icons.restart_alt,
+          size: 30,
+        ),
       ),
       body: SafeArea(
         child: SizedBox(
