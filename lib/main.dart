@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // implicit animations ---------------------------------------------------
-      home: AnimatedColorPalatte(),
-      // home: AnimatedShoppingCartButton(),
+      // home: AnimatedColorPalatte(),
+      home: AnimatedShoppingCartButton(),
       // home: TweenAnimationBuilderWidget(),
       // home: ImplicitAnimationsAll(),
       // explicit animations ---------------------------------------------------

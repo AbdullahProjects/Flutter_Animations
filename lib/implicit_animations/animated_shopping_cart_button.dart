@@ -26,7 +26,10 @@ class _AnimatedShoppingCartButtonState
           });
         },
         backgroundColor: Colors.grey,
-        child: Icon(Icons.play_arrow),
+        child: Icon(
+          Icons.play_arrow,
+          color: Colors.white,
+        ),
       ),
       body: SafeArea(
         child: SizedBox(
