@@ -1,4 +1,4 @@
-![scaling animation](https://github.com/user-attachments/assets/0f89697f-8e10-4f27-ba02-21248069d7d9)# 🎨 Learning Flutter Animations: Implicit vs Explicit
+# f🔥 Learning Flutter Animations: Implicit vs Explicit
 
 Flutter provides two main types of animations: **Implicit animations** and **Explicit animations**.
 
