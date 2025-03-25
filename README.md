@@ -1,4 +1,4 @@
-# f🔥 Learning Flutter Animations: Implicit vs Explicit
+# 🔥Learning Flutter Animations: Implicit vs Explicit
 
 Flutter provides two main types of animations: **Implicit animations** and **Explicit animations**.
 
