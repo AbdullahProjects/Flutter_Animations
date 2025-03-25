@@ -22,8 +22,8 @@ This example animates the background color of a `Container` when a button is pre
 
 ### 📌 2. Animated Shopping Cart Button (Expanding Button)
 
-![Animated Shopping Cart Button GIF](https://github.com/AbdullahProjects/Flutter_Animations/blob/main/assets/gifs/shopping%20cart%20button.gif)
-
 #### **Description**  
 This example use **AnimatedContainer** to animates a shopping cart button that expands when clicked, changes color, and displays a checkmark with text.
+
+![Animated Shopping Cart Button GIF](https://github.com/AbdullahProjects/Flutter_Animations/blob/main/assets/gifs/shopping%20cart%20button.gif)
 
