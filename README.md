@@ -1,4 +1,4 @@
-# 🎨 Learning Flutter Animations: Implicit vs Explicit
+![scaling animation](https://github.com/user-attachments/assets/0f89697f-8e10-4f27-ba02-21248069d7d9)# 🎨 Learning Flutter Animations: Implicit vs Explicit
 
 Flutter provides two main types of animations: **Implicit animations** and **Explicit animations**.
 
@@ -26,4 +26,13 @@ This example animates the background color of a `Container` when a button is pre
 This example use **AnimatedContainer** to animates a shopping cart button that expands when clicked, changes color, and displays a checkmark with text.
 
 ![Animated Shopping Cart Button GIF](https://github.com/AbdullahProjects/Flutter_Animations/blob/main/assets/gifs/shopping%20cart%20button.gif)
+
+### 📌 3. Tween Animation Builder (Smooth Scaling Animation)
+
+#### **Description**  
+This example uses `TweenAnimationBuilder` to animate a circular container that grows smoothly from **0 to 250 in size** over **2 seconds**. It is ideal for one-time animations that do not rely on user interaction.
+
+![Tween Animation Builder GIF](https://github.com/AbdullahProjects/Flutter_Animations/blob/main/assets/gifs/scaling%20animation.gif)
+
+
 
