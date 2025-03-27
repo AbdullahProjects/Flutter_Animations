@@ -5,6 +5,7 @@ import 'package:animations_rivan_sir/implicit_animations/animated_color_palatte.
 import 'package:animations_rivan_sir/implicit_animations/animated_shopping_cart_button.dart';
 import 'package:animations_rivan_sir/implicit_animations/implicit_animations_all.dart';
 import 'package:animations_rivan_sir/implicit_animations/tween_animation_builder.dart';
+import 'package:animations_rivan_sir/page_route_builder_animation/splash_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       // implicit animations ---------------------------------------------------
       // home: AnimatedColorPalatte(),
       // home: AnimatedShoppingCartButton(),
-      home: TweenAnimationBuilderWidget(),
+      // home: TweenAnimationBuilderWidget(),
       // home: ImplicitAnimationsAll(),
       // explicit animations ---------------------------------------------------
       // home: LoginPageAnimations(),
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
       //   color: Colors.blue,
       //   progress: 0.65,
       // ),
+      home: SplashAnimation(),
     );
   }
 }
