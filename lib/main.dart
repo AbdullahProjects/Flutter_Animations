@@ -1,3 +1,4 @@
+import 'package:animations_rivan_sir/custom_painter_animation/bouncing_ball_animation.dart';
 import 'package:animations_rivan_sir/explicit_animations/list_animation.dart';
 import 'package:animations_rivan_sir/explicit_animations/loading_animation.dart';
 import 'package:animations_rivan_sir/explicit_animations/login_page_animation.dart';
@@ -36,7 +37,10 @@ class MyApp extends StatelessWidget {
       //   color: Colors.blue,
       //   progress: 0.65,
       // ),
-      home: SplashAnimation(),
+      // page route builder animation ------------------------------------------
+      // home: SplashAnimation(),
+      // custom painter example ------------------------------------------------
+      home: BouncingBallAnimation(),
     );
   }
 }
